@@ -1,0 +1,57 @@
+body {
+    margin-top: 0;
+}
+.main {
+    margin-left: 150px;
+}
+.main2 {
+    margin-left: 190px;
+}
+.w3-sidebar {
+    width: 150px;
+}
+.w3-blues {
+    color: white;
+    background-color: rgb(1, 4, 15);
+}
+.w3-white-me {
+    background-color: aliceblue;
+}
+
+.w3-rotate {
+    transform: rotate(345deg);
+}
+
+nav {
+    overflow: auto;
+    margin-top: 0;
+}
+
+w3-padding-large {
+    padding: 12px 20px !important
+}
+
+@media screen and (max-width:600px) {
+    .main {
+        margin-left:0 ;
+    }
+    .main2 {
+        margin-left:0 ;
+    }
+    button.w3-right {
+        font-size: small;
+        padding: 3px;
+    }
+}
+@media (max-width:992px) and (min-width:601px) {
+    button.w3-right {
+        font-size: medium;
+        padding: 5px;
+    }
+}
+
+.w3-animate-left1{position:relative;animation:animateleft 3s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+
+.w3-animate-right1{position:relative;animation:animateright 4s}@keyframes animateright{from{right:-300px;opacity:0} to{right:0;opacity:1}}
+
+.w3-animate-bottom1{position:fixed;animation:animatebottom 3s}@keyframes animatebottom{from{bottom:-700px;opacity:0} to{bottom:0;opacity:1}}

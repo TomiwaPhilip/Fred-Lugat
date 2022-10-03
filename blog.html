@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/w3.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="Font awesome/fontawesome/css/all.css">
+    <link rel="stylesheet" href="Excon_Complete/Fonts/WEB/css/excon.css">
+    <title>Fred Lugat</title>
+</head>
+
+<body class="w3-white-me" id="body">
+    <!--this is the nav for large and medium screens-->
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center w3-red w3-excon-bold w3-animate-left1">
+        <!-- Avatar image in top left corner -->
+        <img src="images/bg.png" style="width:100%">
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large">
+            <i class="fa-solid fa-home w3-xxlarge"></i>
+            <p>HOME</p>
+        </a>
+        <a href="index.html#services" class="w3-bar-item w3-button w3-padding-large">
+            <i class="fa fa-tools w3-xxlarge"></i>
+            <p>SERVICES</p>
+        </a>
+        <a href="index.html#portfolio" class="w3-bar-item w3-button w3-padding-large">
+            <i class="fa-solid fa-images w3-xxlarge"></i>
+            <p>PORTFOLIO</p>
+        </a>
+        <a href="index.html#about" class="w3-bar-item w3-button w3-padding-large">
+            <i class="fa-solid fa-user w3-xxlarge"></i>
+            <p>ABOUT</p>
+        </a>
+        <a href="blog.html" class="w3-bar-item w3-button w3-padding-large">
+            <i class="fa fa-blog  w3-xxlarge"></i>
+            <p>BLOG</p>
+        </a>
+    </nav>
+    <!--This the nav for small screens - it is a bottom nav -->
+    <nav class="w3-center w3-bottom w3-red w3-excon-bold w3-animate-bottom1">
+        <div class="w3-bar w3-hide-large w3-hide-medium">
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">
+                <i class="fa-solid fa-home w3-xlarge"></i>
+                <p class="w3-small">Home</p>
+            </a>
+            <a href="#services" class="w3-bar-item w3-button w3-padding-large">
+                <i class="fa-solid fa-tools w3-xlarge"></i>
+                <p class="w3-small">Services</p>
+            </a>
+            <a href="#portfolio" class="w3-bar-item w3-button w3-padding-large">
+                <i class="fa-solid fa-images w3-xlarge"></i>
+                <p class="w3-small">Portfolio</p>
+            </a>
+            <a href="#about" class="w3-bar-item w3-button w3-padding-large">
+                <i class="fa-solid fa-user w3-xlarge"></i>
+                <p class="w3-small">About</p>
+            </a>
+            <a href="blog.html" class="w3-bar-item w3-button w3-padding-large">
+                <i class="fa-solid fa-blog w3-xlarge"></i>
+                <p class="w3-small">Blog</p>
+            </a>
+        </div>
+    </nav>
+
+    <!--Togggle dark and light mode-->
+    <span class="w3-right w3-animate-right1">
+        <i class="fa-solid fa-sun w3-large w3-hide w3-button" id="remove" onclick="mymode()"></i>
+        <i class="fa-solid fa-moon w3-large w3-button" id="add" onclick="mymode2()"></i>
+    </span>
+
+    <!--The main section-->
+    <div class="main2 w3-excon-medium">
+        <!--This are the rows for the different divisions of the blog page-->
+        <div class="w3-row">
+            <div class="w3-col l8 m8 s12 w3-padding w3-animate-zoom">
+                <h2 class="w3-excon-bold w3-text-blue w3-center">Lastest Posts</h2>
+                <div class="w3-card w3-white">
+                    <img src="images/portrait-amazed-pinup-woman-with-camera-charming-photographer-with-red-lips-taking-pictures.jpg" alt="woman" style="width:100%;">
+                    <h4 class="w3-margin w3-excon-bold">She Gave Me a Camera</h4>
+                    <p class="w3-opacity w3-excon-light w3-margin"><i class="fa-solid fa-clock"></i> 31 min ago  <i class="fa-solid fa-user"></i> Fred Lugat</p>
+                    <p class="w3-margin">The lady that gave me a camera was an inspiring lady. I could not recover from how much I miss here.
+                        The only thing I could do is to kep her in my memory and talk to her thre day by day. I long solemnly for 
+                        another day when I would see ... 
+                    </p>
+                    <div class="w3-padding">
+                        <button class="w3-button w3-round-xlarge w3-padding w3-red">Read More 
+                            <span class="w3-badge"><i class="fa-solid fa-greater-than"></i></span>
+                        </button>
+                        <button class="w3-button w3-text-red w3-right"><i class="fa-solid fa-eye"></i> 100</button>
+                        <button class="w3-button w3-right"><i class="fa-solid fa-comment"></i> 20</button>
+                        <button class="w3-button w3-right w3-text-red"><i class="fa-solid fa-heart"></i> 70</button>
+                    </div>
+                </div> <br><br>
+                <div class="w3-card w3-white">
+                    <img src="images/4782.jpg" alt="coder" style="width:100%;">
+                    <h4 class="w3-margin w3-excon-bold">Why I Chose To Be a Full Stack Engineer</h4>
+                    <p class="w3-opacity w3-excon-light w3-margin"><i class="fa-solid fa-clock"></i> 1 day ago  <i class="fa-solid fa-user"></i> Fred Lugat</p>
+                    <p class="w3-margin">The lady that gave me a camera was an inspiring lady. I could not recover from how much I miss here.
+                        The only thing I could do is to kep her in my memory and talk to her thre day by day. I long solemnly for 
+                        another day when I would see ... 
+                    </p>
+                    <div class="w3-padding">
+                        <button class="w3-button w3-round-xlarge w3-padding w3-red">Read More 
+                            <span class="w3-badge"><i class="fa-solid fa-greater-than"></i></span>
+                        </button>
+                        <button class="w3-button w3-text-red w3-right"><i class="fa-solid fa-eye"></i> 900</button>
+                        <button class="w3-button w3-right"><i class="fa-solid fa-comment"></i> 100</button>
+                        <button class="w3-button w3-right w3-text-red"><i class="fa-solid fa-heart"></i> 700</button>
+                    </div>
+                </div> <br><br>
+                <div class="w3-card w3-white">
+                    <img src="images/media_content_01.jpg" alt="lady" style="width:100%;">
+                    <h4 class="w3-margin w3-excon-bold">Why to Do if You are Lonely</h4>
+                    <p class="w3-opacity w3-excon-light w3-margin"><i class="fa-solid fa-clock"></i> 1 day ago  <i class="fa-solid fa-user"></i> Fred Lugat</p>
+                    <p class="w3-margin">The lady that gave me a camera was an inspiring lady. I could not recover from how much I miss here.
+                        The only thing I could do is to kep her in my memory and talk to her thre day by day. I long solemnly for 
+                        another day when I would see ... 
+                    </p>
+                    <div class="w3-padding">
+                        <button class="w3-button w3-round-xlarge w3-padding w3-red">Read More 
+                            <span class="w3-badge"><i class="fa-solid fa-greater-than"></i></span>
+                        </button>
+                        <button class="w3-button w3-text-red w3-right"><i class="fa-solid fa-eye"></i> 900</button>
+                        <button class="w3-button w3-right"><i class="fa-solid fa-comment"></i> 100</button>
+                        <button class="w3-button w3-right w3-text-red"><i class="fa-solid fa-heart"></i> 700</button>
+                    </div>
+                </div>
+            </div>
+            <div class="w3-col l4 m4 s12 w3-padding w3-animate-right1">
+                <h2 class="w3-excon-bold w3-text-blue w3-center">Top Read</h2>
+                <div class="w3-card w3-white">
+                    <img src="images/media_content_01.jpg" alt="woman" style="width: 100%;">
+                    <h6 class="w3-excon-bold w3-center">What to Do if You are Lonely</h6>
+                    <button class="w3-button w3-padding w3-red w3-block">Read Now</button>
+                </div><br>
+                <div class="w3-card w3-white">
+                    <img src="images/portrait-amazed-pinup-woman-with-camera-charming-photographer-with-red-lips-taking-pictures.jpg" alt="woman" style="width: 100%;">
+                    <h6 class="w3-excon-bold w3-center">She Gave Me a Camera</h6>
+                    <button class="w3-button w3-padding w3-red w3-block">Read Now</button>
+                </div>
+            </div>
+        </div>
+    </div> <br><br>
+    <footer class="w3-red w3-text-white w3-center w3-padding-32" style="margin-bottom: 0;">
+        <h5 class="w3-excon-medium w3-hide-small">Web Developed By Tomiwa Philip. <i
+                class="fa-solid fa-copyright"></i> 2022 <a href="#body"><i
+                    class="fa-solid fa-arrow-up w3-badge w3-button w3-xlarge w3-black w3-right w3-margin-right"></i></a>
+        </h5>
+        <p class="w3-excon-medium w3-hide-large w3-hide-medium">Web Developed By Tomiwa Philip. <i
+                class="fa-solid fa-copyright"></i> 2022 <a href="#body"><i
+                    class="fa-solid fa-arrow-up w3-badge w3-button  w3-black w3-right w3-margin-right"></i></a>
+        </p>
+    </footer>
+    <script src="js/w3.js"></script>
+    <script>
+        function mymode() {
+            w3.toggleClass('#body', 'w3-white-me', 'w3-blues');
+            w3.addClass('#remove', 'w3-hide')
+            w3.removeClass('#add', 'w3-hide');
+        }
+        function mymode2() {
+            w3.toggleClass('#body', 'w3-white-me', 'w3-blues');
+            w3.addClass('#add', 'w3-hide')
+            w3.removeClass('#remove', 'w3-hide');
+        }
+    </script>
+</body>
+</html>

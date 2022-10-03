@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/w3.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="Font awesome/fontawesome/css/all.css">
+    <link rel="stylesheet" href="Excon_Complete/Fonts/WEB/css/excon.css">
+    <title>Fred Lugat</title>
+</head>
+
+<body class="w3-white-me" id="body">
+    <!--this is the nav for large and medium screens-->
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center w3-red w3-excon-bold w3-animate-left1">
+        <!-- Avatar image in top left corner -->
+        <img src="images/bg.png" style="width:100%">
+        <a href="#" class="w3-bar-item w3-button w3-padding-large">
+            <i class="fa-solid fa-home w3-xxlarge"></i>
+            <p>HOME</p>
+        </a>
+        <a href="#services" class="w3-bar-item w3-button w3-padding-large">
+            <i class="fa fa-tools w3-xxlarge"></i>
+            <p>SERVICES</p>
+        </a>
+        <a href="#portfolio" class="w3-bar-item w3-button w3-padding-large">
+            <i class="fa-solid fa-images w3-xxlarge"></i>
+            <p>PORTFOLIO</p>
+        </a>
+        <a href="#about" class="w3-bar-item w3-button w3-padding-large">
+            <i class="fa-solid fa-user w3-xxlarge"></i>
+            <p>ABOUT</p>
+        </a>
+        <a href="blog.html" class="w3-bar-item w3-button w3-padding-large">
+            <i class="fa fa-blog  w3-xxlarge"></i>
+            <p>BLOG</p>
+        </a>
+    </nav>
+    <!--This the nav for small screens - it is a bottom nav -->
+    <nav class="w3-center w3-bottom w3-red w3-excon-bold w3-animate-bottom1">
+        <div class="w3-bar w3-hide-large w3-hide-medium">
+            <a href="#" class="w3-bar-item w3-button w3-padding-large">
+                <i class="fa-solid fa-home w3-xlarge"></i>
+                <p class="w3-small">Home</p>
+            </a>
+            <a href="#services" class="w3-bar-item w3-button w3-padding-large">
+                <i class="fa-solid fa-tools w3-xlarge"></i>
+                <p class="w3-small">Services</p>
+            </a>
+            <a href="#portfolio" class="w3-bar-item w3-button w3-padding-large">
+                <i class="fa-solid fa-images w3-xlarge"></i>
+                <p class="w3-small">Portfolio</p>
+            </a>
+            <a href="#about" class="w3-bar-item w3-button w3-padding-large">
+                <i class="fa-solid fa-user w3-xlarge"></i>
+                <p class="w3-small">About</p>
+            </a>
+            <a href="blog.html" class="w3-bar-item w3-button w3-padding-large">
+                <i class="fa-solid fa-blog w3-xlarge"></i>
+                <p class="w3-small">Blog</p>
+            </a>
+        </div>
+    </nav>
+
+    <!--Togggle dark and light mode-->
+    <span class="w3-right w3-animate-right1">
+        <i class="fa-solid fa-sun w3-large w3-hide w3-button" id="remove" title="Toggle Light Mode" onclick="mymode()"></i>
+        <i class="fa-solid fa-moon w3-large w3-button" id="add" title="Toggle Dark Mode" onclick="mymode2()"></i>
+    </span>
+
+    <!--The main section-->
+    <div class="main">
+        <!--This the home section for introduction-->
+        <section id="home" class="home w3-center w3-padding-large w3-excon-bold">
+            <div class="w3-container w3-animate-zoom">
+
+                <h1 class="w3-excon-bold w3-jumbo" style="padding-top: 20px;">Hey!</h1>
+                <h2 class="w3-excon-bold w3-xxxlarge">I am <span class="w3-tag w3-red w3-padding">Fred Lugat</span></h2>
+                <p class="w3-large"> <i class="fa-solid fa-circle w3-text-red"></i> Full Stack Engineer <i
+                        class="fa-solid fa-circle w3-text-red"></i></p>
+            </div>
+            <div class="w3-animate-right">
+                <img src="images/2.png" alt="fred_lugat" style="width: 50%;">
+            </div>
+        </section>
+
+        <!--This is the section for services and testimonial-->
+        <section id="services" class="w3-container w3-center w3-animate-zoom" style="padding-top: 50px;">
+            <h1 class="w3-excon-bold w3-text-blue">My Services</h1>
+            <div class="w3-row">
+                <div class="w3-col l6 m6 s12 w3-padding">
+                    <div class="w3-card w3-round-xxlarge">
+                        <h4 class="w3-excon-bold w3-red w3-padding">Front-end Engineering</h4>
+                        <img src="images/4782.jpg" alt="front_end_engineer" style="width:100%" class="w3-round-large">
+                        <p class="w3-excon-medium w3-blue w3-padding">I do Front-end Engineering. I am Fully proficient
+                            in HTML, CSS, JS and React!</p>
+                    </div>
+                </div>
+                <div class="w3-col l6 m6 s12 w3-padding">
+                    <div class="w3-card w3-round-large">
+                        <h4 class="w3-excon-bold  w3-blue w3-padding">Back-end Engineering</h4>
+                        <img src="images/4782.jpg" alt="front_end_engineer" style="width:100%" class="w3-round-large">
+                        <p class="w3-excon-medium w3-red w3-padding">I do Back-end Engineering. I am Fully proficient in
+                            Node.js, Next.js and Express.js!</p>
+                    </div>
+                </div>
+            </div>
+            <!--Client's Testimonials-->
+            <div class="">
+                <p class="w3-excon-bold">What Clients are Saying:</p>
+                <div class="w3-card w3-round-large w3-excon-medium w3-padding w3-blue slide">
+                    <p>
+                        Fred is one of the best Engineer I have seen on this space. His ablity to solve problems
+                        creatively and his understanding in debugging, makes me recommend him to anyone or company who
+                        would hire him for a higher pay!
+                    </p>
+                    <p><span><img src="images/avatar3.png" alt="avatar3" style="width: 30px; height:30px"
+                                class="w3-circle"></span> Brian Porsche</p>
+                </div>
+                <div class="w3-card w3-round-large w3-excon-medium w3-padding w3-red slide">
+                    <p>
+                        Fred is one of the best Engineer I have seen on this space. His ablity to solve problems
+                        creatively and his understanding in debugging, makes me recommend him to anyone or company who
+                        would hire him for a higher pay!
+                    </p>
+                    <p><span><img src="images/avatar3.png" alt="avatar3" style="width: 30px; height:30px"
+                                class="w3-circle"></span> Jeff Tim</p>
+                </div>
+                <div class="w3-card w3-round-large w3-excon-medium w3-padding w3-blue slide">
+                    <p>
+                        Fred is one of the best Engineer I have seen on this space. His ablity to solve problems
+                        creatively and his understanding in debugging, makes me recommend him to anyone or company who
+                        would hire him for a higher pay!
+                    </p>
+                    <p><span><img src="images/avatar3.png" alt="avatar3" style="width: 30px; height:30px"
+                                class="w3-circle"></span> Wilbur Fred</p>
+                </div>
+            </div>
+        </section>
+        <!--This is the section for portfolio-->
+        <section id="portfolio" class="w3-container w3-center w3-animate-zoom" style="padding-top: 70px;">
+            <h1 class="w3-excon-bold w3-text-blue">My Portfolio</h1>
+            <div class="w3-row" style="padding-top: 60px;">
+                <div class="w3-col l4 m12 s12">
+                    <div class="w3-card w3-rotate">
+                        <img src="images/architect.png" alt="architext" class="w3-round-large" style="width:100%;">
+                    </div>
+                </div>
+                <div class="w3-col l4 m12 s12">
+                    <div class="w3-card w3-rotate">
+                        <img src="images/restourant.png" alt="architext" class="w3-round-large" style="width:100%;">
+                    </div>
+                </div>
+                <div class="w3-col l4 m12 s12">
+                    <div class="w3-card w3-rotate">
+                        <img src="images/tomiverse.png" alt="architext" class="w3-round-large" style="width:100%;">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="w3-container w3-animate-zoom" style="padding-top: 100px;">
+            <h1 class="w3-excon-bold w3-text-blue w3-center">About Me</h1>
+            <div class="w3-row w3-excon-medium w3-padding">
+                <div class="w3-col l6 m6 s12 w3-padding">
+                    <div class="w3-card">
+                        <img src="images/meo.jpg" alt="fred_lugat" class="w3-round-large" style="width: 100%;">
+                    </div>
+                </div>
+                <div class="w3-col l6 m6 s12 " style="text-align: left;">
+                    <h3 class="w3-excon-bold">About Me</h3>
+                    <p>I am Fred Lugat, world's most respected and renouned Full Stack Engineer! I have received from
+                        nations
+                        and countries who love me and what I do. I have helped companies develop both Front-end and
+                        Back-end
+                        websites! Thsi si not only what I have done, but there is still more to do and to perform!
+                        Do you wanna contact me? Do so below now!
+                    </p>
+                    <p>I am Fred Lugat, world's most respected and renouned Full Stack Engineer! I have received from
+                        nations
+                        and countries who love me and what I do. I have helped companies develop both Front-end and
+                        Back-end
+                        websites! Thsi si not only what I have done, but there is still more to do and to perform!
+                        Do you wanna contact me? Do so below now!
+                    </p>
+                </div>
+                <a href="#contact" class="w3-button w3-red w3-round-large w3-padding">Contact Me</a>
+            </div>
+            <div class="w3-excon-medium w3-animate-zoom" id="contact">
+                <h2 class="w3-excon-bold w3-center w3-text-blue" style="padding-top: 50px;">Contact Me</h2>
+                <p class="w3-center">Do you have anything to say?</p>
+                <form action="#" class="w3-section">
+                    <input type="text" name="name" placeholder="Full Name" class="w3-input w3-border-red w3-round-large"
+                        required> <br>
+                    <input type="email" name="name" placeholder="Example@mail.com"
+                        class="w3-input w3-border-red w3-round-large" required> <br>
+                    <textarea name="message" placeholder="Message..." cols="30" rows="10"
+                        class="w3-input w3-border-red w3-round-large" required></textarea> <br>
+                    <input type="submit" value="Send My Message!"
+                        class="w3-button w3-red w3-block w3-round-large w3-text-white">
+                </form>
+            </div>
+        </section>
+        <footer class="w3-red w3-text-white w3-center w3-padding-32" style="margin-bottom: 0;">
+            <h5 class="w3-excon-medium w3-hide-small">Web Developed By Tomiwa Philip. <i
+                    class="fa-solid fa-copyright"></i> 2022 <a href="#body"><i
+                        class="fa-solid fa-arrow-up w3-badge w3-button w3-xlarge w3-black w3-right w3-margin-right"></i></a>
+            </h5>
+            <p class="w3-excon-medium w3-hide-large w3-hide-medium">Web Developed By Tomiwa Philip. <i
+                    class="fa-solid fa-copyright"></i> 2022 <a href="#body"><i
+                        class="fa-solid fa-arrow-up w3-badge w3-button  w3-black w3-right w3-margin-right"></i></a>
+            </p>
+        </footer>
+    </div>
+    <script src="js/w3.js"></script>
+    <script>
+        w3.slideshow(".slide", 7000);
+
+        function mymode() {
+            w3.toggleClass('#body', 'w3-white-me', 'w3-blues');
+            w3.addClass('#remove', 'w3-hide')
+            w3.removeClass('#add', 'w3-hide');
+        }
+        function mymode2() {
+            w3.toggleClass('#body', 'w3-white-me', 'w3-blues');
+            w3.addClass('#add', 'w3-hide')
+            w3.removeClass('#remove', 'w3-hide');
+        }
+    </script>
+</body>
+
+</html>
